@@ -1,5 +1,9 @@
-# react-refresh
+# `scheduler`
 
-This package implements the wiring necessary to integrate Fast Refresh into bundlers. Fast Refresh is a feature that lets you edit React components in a running application without losing their state. It is similar to an old feature known as "hot reloading", but Fast Refresh is more reliable and officially supported by React.
+This is a package for cooperative scheduling in a browser environment. It is currently used internally by React, but we plan to make it more generic.
 
-This package is primarily aimed at developers of bundler plugins. If you’re working on one, here is a [rough guide](https://github.com/facebook/react/issues/16604#issuecomment-528663101) for Fast Refresh integration using this package.
+The public API for this package is not yet finalized.
+
+### Thanks
+
+The React team thanks [Anton Podviaznikov](https://podviaznikov.com/) for donating the `scheduler` package name.
